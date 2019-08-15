@@ -1,0 +1,30 @@
+/*===== STYLOWANIE SLIDER1-MARKUP =====*/
+body{
+    height: 100%;
+    background-image: url("../images/back.jpg");
+}
+
+#slider-1 {
+    position: relative;
+    margin: 0 auto;
+    top: 10%;
+    width: 500px;
+    min-height: 600px;
+}
+.icon {
+    position: absolute;
+    background-color: trans;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+img{
+    width: 160px;
+}
+
+#icon-0 {
+    z-index: 2;
+    width: 160px;
+    height: 160px;
+}
